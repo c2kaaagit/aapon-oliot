@@ -5,9 +5,8 @@ using namespace std;
 
 int main()
 {
-
-    ItalianChef kokki("luigi");
-    cout << kokki.makeSalad(23) << endl;
-    cout << kokki.makeSoup(40) << endl;
+    ItalianChef italiakokki("luigi");
+    cout << italiakokki.makeSalad(23) << endl;
+    cout << italiakokki.makeSoup(40) << endl;
     return 0;
 }

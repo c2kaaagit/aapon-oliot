@@ -2,7 +2,7 @@
 
 using namespace std;
 
-ItalianChef::ItalianChef(string s)
+ItalianChef::ItalianChef(string s) : Chef(s)
 {
     chefName = s;
     cout << "Kokki nimelta " << chefName << " luotu" << endl;
@@ -33,7 +33,7 @@ bool ItalianChef::askSecret(string s, int a, int b)
     {
 
 
-       cout << makepizza(a, b) << endl;
+        cout << makepizza(a, b) << endl;
         return true;
     }
     else
